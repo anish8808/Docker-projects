@@ -12,4 +12,5 @@ COPY . .
 RUN g++ -o my_app src/sort.cpp
 
 #running the  appication
+#running the  appication
 CMD ["./my_app"]
