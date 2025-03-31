@@ -9,6 +9,7 @@ COPY . .
 #COPY src/sort.cpp /app/sort.cpp ---> we can use this also to copy exact cpp file inside container dir
 
 # compile the code and create a object file name my_app
+# compile the code and create a object file name my_app
 RUN g++ -o my_app src/sort.cpp
 
 #running the  appication
