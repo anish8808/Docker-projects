@@ -5,7 +5,6 @@ FROM gcc:latest
 WORKDIR /app
 
 #copying the src from the host to container
-#copying the src from the host to container
 COPY . .
 #COPY src/sort.cpp /app/sort.cpp ---> we can use this also to copy exact cpp file inside container dir
 
